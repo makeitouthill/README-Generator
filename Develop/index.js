@@ -78,12 +78,12 @@ function init() {
 ${input.description}
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Installation](#installation-installation)
+- [Usage](#usage-usage)
+- [License](#license-license)
+- [Contributing](#contributing-contributing)
+- [Tests](#tests-tests)
+- [Questions](#questions-questions)
         
 ## Installation {#installation}
         

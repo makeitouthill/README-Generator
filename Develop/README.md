@@ -1,25 +1,25 @@
 
-# My project
+# Title of project
 
 ## Description
         
-My description
+Description of project
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Installation](#installation-installation)
+- [Usage](#usage-usage)
+- [License](#license-license)
+- [Contributing](#contributing-contributing)
+- [Tests](#tests-tests)
+- [Questions](#questions-questions)
         
 ## Installation {#installation}
         
-My instructions
+Installation of project
 
 ## Usage {#usage}
         
-My usage
+Usage of project
         
 ## License {#license}
         
@@ -27,11 +27,11 @@ None
         
 ## Contributing {#contributing}
         
-My contribution
+Guidelines of project
         
 ## Tests {#tests}
         
-My Test
+Tests of project
         
 ## Questions {#questions}
 If you have any questions, please feel free to contact me at alex.horning.54@gmail.com 
