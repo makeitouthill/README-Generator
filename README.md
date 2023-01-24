@@ -7,7 +7,7 @@
 
         ##Description
         
-        My Project Description
+        My Description
 
         ## Table of Contents
         - [Installation](#installation)
@@ -17,26 +17,26 @@
         - [Tests](#tests)
         - [Questions](#questions)
         
-        ## <a id="installation">Installation</a>
+        ## Installation {#installation}
         
-        My Project Installation Instructions
+        My Install Instruction
 
-        ## <a id="usage">Usage</a>
+        ## Usage {#usage}
         
         My Usage
         
-        ## <a id="license">License</a>
+        ##License {#license}
         
         None
         
-        ## <a id="contributing">Contributing</a>
+        ##Contributing {#contributing}
         
-        My Guideline are
+        My Contribution Guidelines
         
-        ## <a id="tests">Tests </a>
+        ## Tests {#tests}
         
-        my test are
+        My Test
         
-        ## <a id="questions">Questions</a>
+        ## Questions {#questions}
         If you have any questions, please feel free to contact me at alex.horning.54@gmail.com 
-        or check out my GitHub profile at [Makeitouthill](https://github.com/Makeitouthill).
+        or check out my GitHub profile at [Makeitouthil](https://github.com/Makeitouthill).

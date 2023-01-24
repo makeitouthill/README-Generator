@@ -84,27 +84,27 @@ function init() {
         - [Tests](#tests)
         - [Questions](#questions)
         
-        ##<a id="#installation">Installation</a>
+        ## Installation {#installation}
         
         ${input.installation}
 
-        ##<a id="#usage">Usage</a>
+        ## Usage {#usage}
         
         ${input.usage}
         
-        ##<a id="#license">License</a>
+        ##License {#license}
         
         ${input.license}
         
-        ##<a id="#contributing">Contributing</a>
+        ##Contributing {#contributing}
         
         ${input.contributing}
         
-        ##<a id="#tests">Tests </a>
+        ## Tests {#tests}
         
         ${input.tests}
         
-        ##<a id="#questions">Questions</a>
+        ## Questions {#questions}
         If you have any questions, please feel free to contact me at ${input.reachMe} 
         or check out my GitHub profile at [${input.githubName}](https://github.com/${input.githubName}).`;
         writeToFile("README.md", README);
