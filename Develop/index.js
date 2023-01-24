@@ -34,7 +34,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "Contributing",
+        name: "contributing",
         message: "Provide your contribution guidelines:",
     },
     {
@@ -70,11 +70,43 @@ function init() {
     console.log("App is running");
     inquirer.prompt(questions).then(input => {
         console.log(input);
-        const README = `${input.projectTitle}
+        const README = `#${input.projectTitle}
+
+        ##Description
+        
         ${input.description}
+
+        ## Table of Contents
+        - [Installation](#installation)
+        - [Usage](#usage)
+        - [License](#license)
+        - [Contributing](#contributing)
+        - [Tests](#tests)
+        - [Questions](#questions)
+        
+        ##<a id="#installation">Installation</a>
+        
         ${input.installation}
+
+        ##<a id="#usage">Usage</a>
+        
         ${input.usage}
-        ${input.licenses}`;
+        
+        ##<a id="#license">License</a>
+        
+        ${input.license}
+        
+        ##<a id="#contributing">Contributing</a>
+        
+        ${input.contributing}
+        
+        ##<a id="#tests">Tests </a>
+        
+        ${input.tests}
+        
+        ##<a id="#questions">Questions</a>
+        If you have any questions, please feel free to contact me at ${input.reachMe} 
+        or check out my GitHub profile at [${input.githubName}](https://github.com/${input.githubName}).`;
         writeToFile("README.md", README);
     });
 }
