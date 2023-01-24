@@ -70,45 +70,46 @@ function init() {
     console.log("App is running");
     inquirer.prompt(questions).then(input => {
         console.log(input);
-        const README = `#${input.projectTitle}
+        const README = `
+# ${input.projectTitle}
 
-        ##Description
+## Description
         
-        ${input.description}
+${input.description}
 
-        ## Table of Contents
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [License](#license)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Questions](#questions)
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
         
-        ## Installation {#installation}
+## Installation {#installation}
         
-        ${input.installation}
+${input.installation}
 
-        ## Usage {#usage}
+## Usage {#usage}
         
-        ${input.usage}
+${input.usage}
         
-        ##License {#license}
+## License {#license}
         
-        ${input.license}
+${input.license}
         
-        ##Contributing {#contributing}
+## Contributing {#contributing}
         
-        ${input.contributing}
+${input.contributing}
         
-        ## Tests {#tests}
+## Tests {#tests}
         
-        ${input.tests}
+${input.tests}
         
-        ## Questions {#questions}
-        If you have any questions, please feel free to contact me at ${input.reachMe} 
-        or check out my GitHub profile at [${input.githubName}](https://github.com/${input.githubName}).`;
-        writeToFile("README.md", README);
-    });
+## Questions {#questions}
+If you have any questions, please feel free to contact me at ${input.reachMe} 
+or check out my GitHub profile at [${input.githubName}](https://github.com/${input.githubName}).`;
+writeToFile("README.md", README);
+});
 }
 
 // Function call to initialize app

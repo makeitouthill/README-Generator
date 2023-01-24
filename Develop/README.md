@@ -1,37 +1,38 @@
-#My Project Title
 
-        ##Description
-        
-        My Description
+# My project
 
-        ## Table of Contents
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [License](#license)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Questions](#questions)
+## Description
         
-        ## Installation {#installation}
-        
-        My Install Instruction
+My description
 
-        ## Usage {#usage}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
         
-        My Usage
+## Installation {#installation}
         
-        ##License {#license}
+My instructions
+
+## Usage {#usage}
         
-        None
+My usage
         
-        ##Contributing {#contributing}
+## License {#license}
         
-        My Contribution Guidelines
+None
         
-        ## Tests {#tests}
+## Contributing {#contributing}
         
-        My Test
+My contribution
         
-        ## Questions {#questions}
-        If you have any questions, please feel free to contact me at alex.horning.54@gmail.com 
-        or check out my GitHub profile at [Makeitouthil](https://github.com/Makeitouthill).
+## Tests {#tests}
+        
+My Test
+        
+## Questions {#questions}
+If you have any questions, please feel free to contact me at alex.horning.54@gmail.com 
+or check out my GitHub profile at [Makeitouthill](https://github.com/Makeitouthill).
