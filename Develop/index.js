@@ -6,18 +6,50 @@ const fs = require("fs");
 const questions = [
     {
         type: "input",
-        name: "Question 1",
-        message: "Question 1 Answer",
+        name: "projectTitle",
+        message: "What is the title of your project?",
     },
     {
         type: "input",
-        name: "Question 2",
-        message: "Question 2 Answer",
+        name: "description",
+        message: "Provide a description for your project:",
     },
     {
         type: "input",
-        name: "Question 3",
-        message: "Question 3 Answer",
+        name: "installation",
+        message: "Provide your installation instructions:",
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Provide your usage instructions:",
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Choose a license for your project:",
+        choices: ["None","GNU General Public License v3.0" ,"MIT License" ,"BSD 2-Clause 'Simplified' License","BSD 3-Clause 'New' or 'Revised' License","Boost Software License 1.0","Creative Commons Zero v1.0 Universal","Eclipse Public License 2.0" ,
+            "GNU Affero General Public License v3.0","GNU General Public License v2.0","GNU Lesser General Public License v2.1","Mozilla Public License 2.0","The Unlicense",]
+    },
+    {
+        type: "input",
+        name: "Contributing",
+        message: "Provide your contribution guidelines:",
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Provide tests intructions for the project:",
+    },
+    {
+        type: "input",
+        name: "githubName",
+        message: "Provide your Github username:",
+    },
+    {
+        type: "input",
+        name: "reachMe",
+        message: "Provide a email to be reached for questions:",
     },
 ];
 
