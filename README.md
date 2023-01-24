@@ -1,8 +1,3 @@
-# Professional README Generator Starter Code
-
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-
 #My Project Title
 
         ##Description
@@ -40,3 +35,7 @@
         ## Questions {#questions}
         If you have any questions, please feel free to contact me at alex.horning.54@gmail.com 
         or check out my GitHub profile at [Makeitouthil](https://github.com/Makeitouthill).
+        # Professional README Generator Starter Code
+
+[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
